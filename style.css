@@ -1,0 +1,77 @@
+* {
+    margin: 1;
+    padding: 1;
+    font-family: Arial;
+}
+
+body {
+    background: #09baf0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #0804e2;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.hero img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.btn {
+    background: blue;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.skills .bar {
+    background: #ccc;
+    margin-bottom: 10px;
+}
+
+.skills .bar div {
+    background: rgb(14, 99, 196);
+    height: 10px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+form input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
